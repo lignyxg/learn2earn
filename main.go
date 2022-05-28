@@ -1,4 +1,4 @@
-package main
+package learn2earn
 
 import "fmt"
 
