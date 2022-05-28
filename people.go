@@ -3,10 +3,14 @@ package learn2earn
 import "fmt"
 
 type People struct {
-	name string
-	age  int
+	Name string
+	Age  int
 }
 
-func (p *People) run() {
+func (p *People) Run() {
 	fmt.Println("running")
+}
+
+func (p *People) Talk() {
+	fmt.Println("Muhahahaha")
 }
